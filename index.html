@@ -28,12 +28,12 @@
       top: 0;
       left: 0;
       width: 100%;
-      /*height: 100%;*/
+      height: 100%;
       background-image: url('bg.jpg'); /* Βεβαιώσου ότι η εικόνα λέγεται bg.jpg */
       background-size: cover;
       background-position: center;
-      filter: blur(50px) brightness(0.7); /* Θόλωμα & ελαφρύ σκοτάδιασμα */
-      transform: scale(1.05); /* Αποφυγή λευκών άκρων λόγω blur */
+      filter: blur(2px) brightness(0.5); /* Μειώσαμε το blur από 8px σε 2px, και σκουρύναμε λίγο παραπάνω (0.5 αντί 0.7) */
+      transform: scale(1.01); /* Μειώσαμε το scale αφού δεν έχουμε πολύ blur */
       z-index: -1;
     }
 
